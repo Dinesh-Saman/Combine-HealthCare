@@ -1,0 +1,58 @@
+/* Header Container */
+.header-nav {
+    padding: 16px;
+    background-color: #2C041C
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Logo styling */
+.header-logo {
+    height: 64px;
+    width: auto;
+    object-fit: contain;
+}
+
+/* Navigation links styling */
+.header-links {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-grow: 1;
+}
+
+.header-links a {
+    color: #FFFFFF;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.header-links a:hover {
+    transform: scale(1.05);
+    color: #ccc; /* Add a subtle hover color change */
+}
+
+/* Authentication section */
+.header-auth {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-login, .header-logout {
+    color: #FFFFFF;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Logout specific styling */
+.header-logout:hover {
+    color: #FF6347; /* Change color to red on hover */
+}
