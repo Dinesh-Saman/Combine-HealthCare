@@ -91,7 +91,7 @@ const UpdateTicket = () => {
     <Box className={classes.mainContent}>
       <Sidebar /> {/* Render the sidebar */}
       <Paper className={classes.container}>
-        <Typography variant="h5" gutterBottom>
+        <Typography variant="h5" gutterBottom style={{fontFamily:'cursive', color:'purple', fontWeight:'600', fontSize:'30px', marginBottom:'40px', marginTop:'30px'}}>
           Update Ticket
         </Typography>
         {loading ? (
@@ -153,6 +153,7 @@ const UpdateTicket = () => {
               </Select>
             </FormControl>
             <Button
+              fullWidth
               variant="contained"
               color="primary"
               className={classes.updateButton}

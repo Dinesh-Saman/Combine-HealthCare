@@ -78,17 +78,35 @@ const AddTicket = () => {
   const priorityOptions = ['Low', 'Medium', 'High'];
 
   return (
-    <Box display="flex" justifyContent="center" alignItems="center" flexDirection="column" style={{ marginTop: '40px' }}>
-      <Typography variant="h4" gutterBottom style={{ fontFamily: 'cursive', fontWeight: 'bold', color: 'purple' }}>
-        Add New Ticket
-      </Typography>
+    <Box
+      display="flex"
+      justifyContent="center"
+      alignItems="center"
+      flexDirection="column"
+      style={{
+        minHeight: '100vh',
+        backgroundImage: 'url(https://arrivein.com/wp-content/uploads/2020/06/Blog-Banner-Family-health.jpg)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        padding: '20px',
+      }}
+    >
       <Box
         component="form"
         noValidate
         autoComplete="off"
         onSubmit={handleSubmit}
-        style={{ width: '400px', padding: '20px', backgroundColor: 'white', borderRadius: 8, boxShadow: '0px 0px 10px rgba(0,0,0,0.1)' }}
+        style={{
+          width: '400px',
+          padding: '20px',
+          backgroundColor: 'white',
+          borderRadius: 8,
+          boxShadow: '0px 0px 10px rgba(0,0,0,0.1)',
+        }}
       >
+      <Typography variant="h4" gutterBottom style={{ fontFamily: 'cursive', fontWeight: 'bold', color: 'purple', textAlign:'center' }}>
+        Add New Ticket
+      </Typography>
         <TextField
           fullWidth
           margin="normal"

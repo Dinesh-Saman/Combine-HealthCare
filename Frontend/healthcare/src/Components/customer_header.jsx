@@ -82,7 +82,7 @@ const CusHeader = () => {
                     <span style={styles.link} onClick={() => handleProtectedNavigation('/view-articles')}>Education Resources</span>
                     <a href="/view-services" style={styles.link}>Services</a>
                     <a href="/about-us" style={styles.link}>About Us</a>
-                    <a href="/contact-us" style={styles.link}>Contact Us</a>
+                    <a href="/add-ticket" style={styles.link}>Contact Us</a>
                 </div>
 
                 <div style={styles.headerAuth}>
